@@ -1,0 +1,441 @@
+/*Slider*/
+header.container-fluid
+	transition: all ease-in-out 0.3s
+	-webkit-transition: all ease-in-out 0.3s
+	-moz-transition: all ease-in-out 0.3s
+	-ms-transition: all ease-in-out 0.3s
+	-o-transition: all ease-in-out 0.3s
+	width: 100%
+	z-index: 100
+
+	&.affix
+		background-color: rgba($azul, 0.8)
+
+		.logo-responsive
+			transform: translateX(3rem)
+			width: 160px
+
+.reservas
+	.caja-reserva-internas
+		position: absolute
+		z-index: 9999
+		right: 0
+		top: 10%
+		width: 80%
+		height: auto
+		padding-top: 10px
+		padding-bottom: 10px
+		background: url("../images/general/barra_reserva/bg.jpg")
+		.flecha-esquina
+			height: 65px
+			position: absolute
+			left: -25px
+			top: -1px
+		h2 
+			padding: 0
+			color: $blanco
+			text-transform: uppercase
+			font-family: $museoq
+			width: 17%
+			float: $izq 
+			font-size: 1.3em
+			margin: 10px 20px 0
+		.input-group
+			width: 15%
+			padding: 0
+			float: $izq
+			margin: 5px
+		.form-control
+			color: $rojo
+		.input-parte-1
+			width: 80%
+			float: $izq
+			border-radius: 0
+			height: 30px
+			border: 0
+			background-color: $amarillo
+		.input-parte-2
+			width: 20%
+			padding: 5px
+			float: $izq
+			height: 30px
+			border-radius: 0
+			border: 0
+			background-color: $amarillo
+		.selectores
+			width: 10%
+			float: $izq
+			color: $amarillo
+			padding: 0
+			text-align: $centro
+			margin: 5px
+			.input-parte-1
+				width: 100%
+		input::-webkit-input-placeholder
+			color: $rojo
+		input::-moz-placeholder
+			color: $rojo
+		input:-ms-input-placeholder
+			color: $rojo
+		select::-webkit-input-placeholder
+			color: $rojo
+		select::-moz-placeholder
+			color: $rojo
+		select:-ms-input-placeholder
+			color: $rojo
+		button.calendario
+			border: 0
+			background: transparent
+			span 
+				color: $blanco
+		.boton-caja-internas
+			float: $izq
+			width: 8%
+			padding: 0
+			text-align: $centro
+			margin: 5px
+			.btn-buscar-home
+				color: #fff
+				background-color: #911532
+				border-radius: 0
+				&:hover
+					background-color: $amarillo
+.slider
+	width: 100%
+	height: auto
+	position: relative
+	.caja-reserva-home
+		position: absolute
+		z-index: 9
+		left: 5%
+		top: 30%
+		width: $treinta
+		height: auto
+		background-color: rgba(232, 87, 42, 0.8)
+		h2 
+			padding: 0 5%
+			color: $amarillo
+			text-transform: uppercase
+			font-family: $museoq
+		.input-group
+			width: 100%
+			padding: 20px 20px 10px
+		.form-control
+			color: $blanco
+		.input-parte-1
+			width: 80%
+			float: $izq
+			border-radius: 0
+			height: 30px
+			border: 0
+			background-color: rgba(239, 185, 66, 0.8)
+		.input-parte-2
+			width: 20%
+			padding: 5px
+			float: $izq
+			height: 30px
+			border-radius: 0
+			border: 0
+			background-color: rgba(239, 185, 66, 0.8)
+		.selectores
+			width: 33.3%
+			float: $izq
+			color: $amarillo
+			padding: 2% 5% 5%
+			text-align: $centro
+			.input-parte-1
+				width: 100%
+		input::-webkit-input-placeholder
+			color: $blanco
+		input::-moz-placeholder
+			color: $blanco
+		input:-ms-input-placeholder
+			color: $blanco
+		select::-webkit-input-placeholder
+			color: $blanco
+		select::-moz-placeholder
+			color: $blanco
+		select:-ms-input-placeholder
+			color: $blanco
+		button.calendario
+			border: 0
+			background: transparent
+			span 
+				color: $blanco
+		.boton-caja-home
+			float: $izq
+			width: $cien 
+			padding: 0 0 5%
+			text-align: $centro
+			.btn-buscar-home
+				color: $azul-claro
+				background-color: rgba(3, 49, 65, .8)
+				border-radius: 0
+				&:hover
+					color: $blanco
+					background-color: rgba(3, 49, 65, 1)
+	
+	.carousel-inner 
+		height: auto
+		.item
+			height: 100%
+		.active 
+			height: 100%
+		.fill 
+			width: 100%
+			height: 100vh
+			background-size: cover
+			background-position: $arriba
+			overflow: hidden
+			img
+				width: 100%
+	.carruhome
+		height: auto
+	.carruinterna
+		height: auto
+		.fill 
+			height: 90vh
+	.contenido-carrusel-general
+		overflow: inherit
+	.carrusel-planes 
+		height: auto !important
+		width: 50% 
+		left: 25%
+	.carousel-control
+		width: 5% !important
+	.slide01
+		background: url('../images/home/header.jpg')
+	.slide02
+		background: url('../images/home/header.jpg')
+	.slide03
+		background: url('../images/home/header.jpg')
+	.slide04
+		background: url('../images/home/header.jpg')
+	.slide05
+		background: url('../images/home/header.jpg')
+	.carousel-caption
+		padding: 0 2%
+		left: 10%
+		width: 45%
+		h2
+			text-align: left
+			font-size: $textoxl
+			font-family: $museoq
+			text-transform: uppercase
+		p 
+			font-size: $textomd
+	.carousel-dos
+		left: 45%
+		top: 40%
+		border-right: 5px solid $blanco
+		padding-top: 0
+	.carousel-internas
+		margin-top: -15vh
+		width: 80%
+		position: absolute
+	.texto-general-slide
+		margin: 20px auto 70px
+		text-align: center
+		font-size: $textomd
+		p 
+			width: 80%
+			margin: 20px auto
+			font-size: $textonr
+			text-align: justify
+			text-align-last: center
+			span
+				font-size: $textomd
+				font-weight: bold
+	.separador_dos
+		width: 100px
+		margin-top: -75px
+	.carousel-control
+		top: 50%
+		bottom: inherit
+.no-slider
+	.carousel-control
+		display: none
+.slider-general
+	.carousel-control
+		top: 40%
+.carousel-control.right, .carousel-control.left
+	background-image: none
+.carousel-indicators .amarillo
+	background-color: $amarillo
+.carousel-indicators .naranja
+	background-color: $naranja
+.carousel-indicators .rojo
+	background-color: $rojo
+.carousel-indicators .azul-claro
+	background-color: $azul-claro
+.carousel-indicators .azul
+	background-color: $azul
+.carousel-indicators .active
+	background-color: $blanco
+	border: none
+	height: 10px
+	width: 10px
+	margin: 1px
+.carousel-indicators li
+	border: none
+	height: 10px
+	width: 10px
+	border-radius: 0
+.carousel-control
+	.icon-next, .icon-prev
+		margin-top: -50px !important
+	.icon-next:before, .icon-prev:before
+		font-size: $textoxl
+		color: $azul-claro
+.menu-principal
+	height: 70px
+	padding-top: 25px
+	position: absolute
+	width: 100%
+	z-index: 100
+	margin: 0
+	.input-group
+		width: 100%
+	.dropdown-menu
+		background: $amarillo
+		border-radius: 0
+		padding: 0
+		left: 15%
+		li
+			text-align: $izq
+			a
+				&:hover, &:active
+					background: $rojo
+					color: $amarillo
+			.sub-menu
+				left: 105%
+				top: 0
+	.logo
+		margin-top: -20px
+	.logo-menu
+		position: relative
+		img
+			width: 80%
+	ul.nav 
+		li
+			background-position: center right
+			display: inline-block
+			font-size: 1.2rem
+			max-width: 13%
+			padding: 0
+			position: relative
+			text-align: $centro
+			line-height: 1
+			vertical-align: middle
+			width: 100%
+
+			&::after
+				background: url("../images/general/punto_separador.jpg") no-repeat
+				content: ' '
+				display: block
+				height: 5px
+				pointer-events: none
+				position: absolute
+				right: -2px
+				top: 50%
+				transform: translateY(-50%)
+				width: 5px
+
+			a 
+				padding: 7px 0
+
+
+			&:nth-of-type(5)
+				&::after
+					right: 1px
+			&:nth-of-type(6)
+				&::after
+					right: -7px
+
+	ul
+		li
+			text-align: $centro
+			font-size: $textonr
+			padding: 0
+			a.bandera
+				display: inline-block
+				padding: 0 5px
+			span 
+				color: $rojo
+			a 
+				color: $blanco
+				font-family: $museoq
+				text-transform: uppercase
+				&:hover 
+					background: transparent
+					color: #b7830f
+			.input-parte-1
+				background: $azul
+				border-radius: 0
+				border: 0
+				color: white
+				float: $izq
+				height: 30px
+				width: 70%
+			.input-parte-2
+				background: $azul
+				border-radius: 0
+				border: 0
+				float: $izq
+				height: 30px
+				padding: 5px
+				width: 30%
+				span
+					color: $blanco
+			button
+				border: 0
+				background: transparent
+			.cincuenta
+				width: $cuarenta
+			.flotar-der
+				img 
+					width: 20px
+			&.flotar-der
+				img 
+					margin-top: -25px
+.menu-responsive
+	height: 70px
+	display: none
+	.logo-responsive
+		// float: left
+		padding: 2%
+		transition: all ease-in-out 0.3s
+		-webkit-transition: all ease-in-out 0.3s
+		-moz-transition: all ease-in-out 0.3s
+		-ms-transition: all ease-in-out 0.3s
+		-o-transition: all ease-in-out 0.3s
+		width: 33%
+		img 
+			width: 80%
+	.busqueda-responsive
+		padding: 2%
+		width: 36%
+		float: left
+		.input-group
+			width: 100%
+			.input-parte-1
+				background: $azul
+				border-radius: 0
+				border: 0
+				color: white
+				float: $izq
+				height: 30px
+				width: 70%
+			.input-parte-2
+				width: 30%
+				padding: 5px
+				float: $izq
+				height: 30px
+				border-radius: 0
+				border: 0
+				background: $azul
+				span
+					color: $blanco
+			button
+				border: 0
+				background: transparent

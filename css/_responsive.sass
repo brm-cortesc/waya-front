@@ -1,0 +1,89 @@
+@media (max-width: $xlg)
+	.menu-principal
+		ul
+			li
+				font-size: $textoxs
+@media (max-width: 900px)
+	.menu-principal
+		ul.nav
+			li
+				&::after
+					content: none
+
+
+@media (max-width: $sm)
+	.reservas
+		.telefono-reserva-home
+			display: none
+	.menu-responsive
+		display: block
+	#dl-menu
+		display: block
+	.menu-principal
+		display: none
+	.reservas .caja-reserva-internas
+		display: none
+	.carousel-caption
+		display: none
+	// .slider
+	// 	.carruinterna
+	// 		.fill
+	// 			height: auto
+	.slider-general
+		.carousel-control
+			top: 20%
+	footer 
+		.contactenos
+			margin-top: 10px
+		.footerdivdos
+			margin-top: 0
+// @media (max-width: $md)
+	section.resto_de_btns
+		.col-md-2
+			width: 100%
+		.col-sm-offset-1
+			margin-left: 0
+	section.section-reservas-internas .menu-reservas li, section.section-reservas-internas .menu-reservas, section.section-reservas-internas .menu-reservas li:last-child
+		background-image: none
+	section.section-reservas-internas .caja-reserva-interna .cincuenta-porciento
+		width: 100%
+	.slider .caja-reserva-home
+		width: 80%
+		left: 10%
+	.carousel-dos
+		display: none
+	section article .bg-internas-tamano
+		height: auto
+		min-height: 50vh
+	section.section-home-dos h2, section article .parrafo-amarillo h2, section article .parrafo-amarillo h4
+		font-size: $textomd
+	section.section-header-internas h3
+		margin: 15% 0 0
+	body .no-padding-top
+		padding-top: 50px !important
+	.slider-general
+		.carousel-control
+			top: 5%
+
+
+@media (max-width: 540px)
+	header.container-fluid
+		&.affix
+			.logo-responsive
+				transform: translateX(0rem)
+
+	footer 
+		.contactenos
+			width: 100%
+			background-color: #0b2c3f
+			background-size: 80%
+	.dl-menuwrapper
+		width: 96%
+	section 
+		.nav-tabs
+			li.tabhome
+				width: 100%
+				text-align: center
+
+
+

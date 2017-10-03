@@ -1,0 +1,249 @@
+section 
+	&.section-home-dos
+		background: $azul
+		background-size: cover
+		text-align: $centro
+		padding: 10%
+		h2
+			font-size: $textoxxl
+			color: $blanco
+		p 
+			font-size: $textomd
+			color: $blanco
+	.nav-tabs
+		border-bottom: 0
+		li.tabhome
+			width: 49%
+			text-align: center
+			a 
+				padding-top: 50px
+				font-size: $textoxl
+				font-family: $museoq
+				text-transform: uppercase
+				border: 0
+				background-color: #efb44f
+				color: #ea5031
+			a:hover
+				border: 0
+	.tab-content
+		img 
+			width: 100%
+	.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus
+		background-color: #ea5031
+		color: #efb44f
+		border: 0
+	&.resto_de_btns
+		a:hover
+			opacity: 0.8
+		img
+			width: 100%
+		.col-md-3, .col-md-6, .col-md-2
+			padding-left: 0
+			padding-right: 0
+		.col-md-2
+			width: 20%
+		.col-sm-offset-1
+			margin-left: 0
+	&.btns_planes
+		p.btn-cargar
+			text-align: center
+			margin-bottom: 80px
+		a 
+			span
+				display: none
+		a:hover
+			span
+				opacity: 1 !important
+				display: block
+				position: absolute
+				z-index: 999
+				background: #000
+				width: 100%
+				height: 100%
+				margin-top: -70%
+				text-align: center
+				font-size: $textonr
+				padding: 10% 5% 5%
+				color: #fff
+				h3
+					font-size: $textomd
+	&.reservas-planes
+	&.section-reservas-internas
+		padding: 20% 0 50px
+		background: url(../images/bg/bg_reservas.jpg)
+		background-position: bottom
+		.menu-reservas
+			width: 70%
+			margin: 10px 15%
+			background-color: rgba(54, 97, 155, 0.5)
+			background-image: url(../images/barra-reservas/flechaizq.png)
+			background-position: left
+			background-repeat: no-repeat
+			li 
+				display: inline-block
+				width: 24%
+				padding: 10px
+				text-align: $centro
+				background-image: url(../images/barra-reservas/punto.png)
+				background-repeat: no-repeat
+				background-position: right
+				a 
+					color: $blanco
+				&:last-child
+					background-image: url(../images/barra-reservas/flechader.png)
+
+		h3
+			width: 30%
+			margin-left: 35%
+			background: $amarillo
+			color: $rojo
+			font-weight: bold
+			padding: 5px
+		.caja-reserva-interna
+			font-size: $textosm
+			float: $izq
+			margin-left: 5%
+			width: 90%
+			height: auto
+			background: url('../images/bg/internas/bg_naranja_oscuro.jpg')
+			.form-control
+				color: $blanco
+			.input-parte-1
+				width: 80%
+				float: $izq
+				border-radius: 0
+				height: 30px
+				border: 0
+				background-color: rgba(239, 185, 66, 0.8)
+			.selectores-texto
+				width: 35%
+				float: $izq
+				color: $blanco
+				padding: 2% 5% 5%
+				text-align: $izq
+				text-transform: uppercase
+			.cincuenta-porciento
+				width: 50%
+				float: $izq
+				text-align: $izq
+				padding: 3%
+				color: $blanco
+			.selectores
+				width: 65%
+				float: $izq
+				color: $amarillo
+				padding: 2% 5% 5%
+				text-align: $izq
+				.input-parte-1
+					width: 100%
+			.cien-porciento
+				width: 95%
+				text-align: $izq
+			input::-webkit-input-placeholder
+				color: $blanco
+			input::-moz-placeholder
+				color: $blanco
+			input:-ms-input-placeholder
+				color: $blanco
+			select::-webkit-input-placeholder
+				color: $blanco
+			select::-moz-placeholder
+				color: $blanco
+			select:-ms-input-placeholder
+				color: $blanco
+			button.calendario
+				border: 0
+				background: transparent
+				span 
+					color: $blanco
+			.boton-caja-home
+				float: $izq
+				width: $cien 
+				padding: 0 0 5%
+				text-align: $centro
+				.btn-buscar-home
+					color: $rojo
+					background-color: $amarillo
+					border-radius: 0
+					font-family: $museoq
+					font-weight: bold
+					&:hover
+						color: $naranja
+						background-color: $amarillo
+	&.section-opiniones-internas
+		padding: 20% 0 50px
+		.opiniones-texto
+			width: 100%
+			padding: 10px
+			background-color: rgba(3, 49, 65, .8)
+			margin-top: 10px
+			color: $blanco
+			h6
+				color: $azul-claro
+			i 
+				color: $amarillo
+				font-size: $textosxs
+			span 
+				font-size: $textosxs
+			p
+				font-size: $textoxs
+	&.section-header-internas
+		background: url("../images/general/bg_general_header.jpg")
+		background-size: cover
+		text-align: $centro
+		padding: 10% 10% 0
+		background-position: $arriba
+		h3
+			bottom: 0
+			margin: 0 25% 0
+			padding: 10px
+			background: $amarillo
+			color: $rojo
+			font-family: $museoq
+			text-transform: uppercase
+			font-weight: bold
+			&.sin-titulo
+				background: none
+	&.internas-general
+		display: inline-block
+	.btn-parrafo
+		background: $rojo
+		border-radius: 0
+		color: $blanco
+		padding: 10px 20px
+		margin-top: 15px
+	.footersection
+		padding: 30px
+		margin: 0 auto 50px
+		text-align: center
+	article
+		.parrafo-amarillo
+			padding: 5%
+			h4
+				color: $naranja
+				font-family: $museoq
+				font-size: $textolg
+			h2
+				color: $rojo
+				font-family: $museoq
+				font-size: $textoxl
+			p 
+				color: $blanco
+	&.section-opiniones-internas
+		padding: 15% 0 5%
+		.opiniones-texto
+			width: 100%
+			padding: 10px
+			background-color: rgba(3, 49, 65, .8)
+			margin-top: 10px
+			color: $blanco
+			h6
+				color: $azul-claro
+			i 
+				color: $amarillo
+				font-size: $textosxs
+			span 
+				font-size: $textosxs
+			p
+				font-size: $textoxs
+			
