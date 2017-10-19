@@ -3,6 +3,10 @@
 		ul
 			li
 				font-size: $textoxs
+
+	section.section-header-internas
+		padding-top: 17rem
+
 @media (max-width: 960px)
 	section.section-opiniones-internas
 		padding-top: 16rem
@@ -19,7 +23,6 @@
 			li
 				&::after
 					content: none
-
 
 @media (max-width: $sm)
 	.reservas
@@ -43,7 +46,8 @@
 		.carousel-control
 			top: 20%
 
-	section.section-opiniones-internas
+	section.section-opiniones-internas,
+	section.section-header-internas
 		padding-top: 0
 
 	.row-form-opinion,
@@ -58,7 +62,11 @@
 // @media (max-width: $md)
 	section.resto_de_btns
 		.col-md-2
-			width: 100%
+		.col-md-3
+			img
+				width: 100%
+
+
 		.col-sm-offset-1
 			margin-left: 0
 	section.section-reservas-internas .menu-reservas li, section.section-reservas-internas .menu-reservas, section.section-reservas-internas .menu-reservas li:last-child
