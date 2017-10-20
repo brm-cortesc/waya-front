@@ -68,8 +68,16 @@ jQuery(document).ready(function($) {
         top: 50,
         
       }
+    });
+
+    /*Desplegable de reservar*/
+    jQuery('.text-Hotel').click(function (e) {
+      e.preventDefault();
+      jQuery('.contenedor-mascara').toggleClass('active');
     })
-  }
+
+  };
+
 
 
 

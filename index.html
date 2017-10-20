@@ -85,8 +85,85 @@
   </div>
 </header>
 <section class="container-fluid">
+  <div class="contenedor-mascara">
+        <div class="cont-Mreservar">
+          <div class="cont-selecion-reserva">
+            <div class="tipo-reserva">
+                  <p class="text-Hotel">RESERVAR</p> 
+            </div>    
+          </div>
+          <div class="detalles-reserva">
+          <form id="bookingForm" action="http://reservas.hotelwayaguajira.com/bookcore/v1pax/search-dispo.htm" method="POST">
+            <div class="cont-select-hotel">
+              <!--  <select class="select-reservas select-hotel">
+                 <option value="0">Seleccione:</option>
+                 <option value="1">Opcion2</option> 
+              </select> -->
+            </div>
+            <div class="clear"></div>
+            <div class="conte-fechas">
+              <div class="calendario-llegada">
+            <label for="from">Fecha de ingreso</label>
+            <input type="hidden" id="fromH" name="entrada" value="">
+            <input type="text" id="from" name="from" class="fechas-selecionadas fecha-ini hasDatepicker">
+                </div>
+                <div class="fechasS">
+                  <p class="dia">31</p>
+                  <span class="mes">Nov</span>
+                  <span class="year">2017</span>
+                </div>
+              </div> 
+
+              <div class="cont-icono-calendar"><img src="images/icono-calendario.png"></div>
+
+              <div class="calendario-salida">
+                <div class="cont-fechas">
+                <input type="hidden" id="toH" name="salida" value="">
+                 <label for="to">Fecha de<br> salida</label>
+                 <input type="text" id="to" name="from" class="fechas-selecionadas fecha-fin hasDatepicker">
+                </div>
+                <div class="fechasL">
+                  <p class="dia">31</p>
+                  <span class="mes">Nov</span>
+                  <span class="year">2017</span>
+                </div>
+              </div>
+            </form></div>
+
+            <div class="tipo-viajeros">
+              <div class="cont-adultos">
+                 <select class="select-reservas no-adultos">
+                  <option value="1">Adultos</option>
+                  <option value="1">1 Adulto</option>            
+                  <option value="2">2 Adultos</option>            
+                  <option value="3">3 Adultos</option>            
+                  <option value="4">4 Adultos</option>            
+                  <option value="5">5 Adultos</option>            
+                </select>
+              </div>
+              <div class="cont-ninos">
+                 <select class="select-reservas no-ninos" name="ninos" id="ninos">
+                  <option value="0">Niños</option>
+                  <option value="2">1 Niño</option>
+                  <option value="3">2 Niños</option>
+                  <option value="3">3 Niños</option>
+                  <option value="4">4 Niños</option>
+                  <option value="5">5 Niños</option>
+                </select>
+              </div>
+              <input type="hidden" name="destino" value="wayaguajira" id="id_destino">
+            </div>
+            <div class="clear"></div>
+            <div class="conte-btn-consultar">
+              <a class="btn-consultar" value="Consultar" id="sendBookingHome">Consultar</a>
+            </div>
+
+            
+          
+        </div>  
+        </div>
   <div class="slider reservas">
-    <div class="caja-reserva-home">
+    <!-- <div class="caja-reserva-home">
       <h2>Reserva ahora</h2>
       <div class="input-group">
         <input type="text" class="form-control input-parte-1" placeholder="Fecha de ingreso">
@@ -113,7 +190,7 @@
       <div class="boton-caja-home">
         <button type="button" class="btn btn-buscar-home">BUSCAR</button>
       </div>
-    </div>
+    </div> -->
     <div id="myCarousel" class="carousel slide">
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="amarillo active"></li>
@@ -169,7 +246,7 @@
 </section>
 <div class="separador"></div>
 <section class="section-home-dos container-fluid">
-  <h2>BIENVENIDOS</h2>
+  <h2>ANSHIJIA HOTEL WAYA GUAJIRA</h2>
   <p>La Península de la Guajira abre sus puertas para que disfrutes de una maravillosa tierra donde el sol, arena, desierto y mar forman paisajes únicos. Ven y descubre por qué el Hotel Waya Guajira te llevará a vivir una experiencia única e irrepetible junto a los fascinantes paisajes del Cabo de la Vela, Manaure, Mayapo y su excepcional cultura wayúu.</p>
 </section>
 <div class="separador"></div>
