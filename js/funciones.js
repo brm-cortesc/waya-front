@@ -27,8 +27,8 @@ jQuery(document).ready(function($) {
                   $('.caja-reserva-internas').css('position', 'fixed');
               }
               else {
-                  $('.caja-reserva-internas').css('position', 'absolute');
-                  $('.caja-reserva-internas').css('top', '10%');
+                  $('.caja-reserva-internas').removeAttr('style')
+                  $('.caja-reserva-internas').removeAttr('style')
               }
           });
 
