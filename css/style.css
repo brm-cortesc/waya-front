@@ -534,6 +534,10 @@ a.btn-consultar:hover, a.btn-consultar:active, a.btn-consultar:focus{
 }
 
 @media (max-width:768px){
+	#ui-datepicker-div{
+		left:0 !important;
+		width:100% !important;
+	}
 	.contenedor-mascara {
 		bottom:0;
 		height: 100%;
