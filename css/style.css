@@ -564,10 +564,10 @@ a.btn-consultar:hover, a.btn-consultar:active, a.btn-consultar:focus{
 		height: 100%;
 		width: 100%;
 	}
-	.cont-fechas,
+	/*.cont-fechas,
 	.conte-fechas{
 		position: relative;
-	}
+	}*/
 
 	.cont-fechas br{
 		display: none;
@@ -590,12 +590,13 @@ a.btn-consultar:hover, a.btn-consultar:active, a.btn-consultar:focus{
 		
 
 	.fechasL{
-		left: 19%;
-		top: 4.8rem;
+		left:19%;
+		top:8.8rem;
 	}
 	.fechasS{
-		left: 39%;
-		top: 4.8rem;
+		left: initial;
+		right:22%;
+		top:8.8rem;
 		
 	}
 	.text-Hotel{
@@ -635,8 +636,21 @@ a.btn-consultar:hover, a.btn-consultar:active, a.btn-consultar:focus{
 
 }
 
-@media (max-width:540px){
+@media (max-width:580px){
+	.fechasL,
+	.fechasS{
+		top:10.8rem;
+	}
+	.fechasS{
+		right:21%;
+	}
 	.fechasL{
+		
+		right:18%;
+	}
+}
+@media (max-width:540px){
+	/*.fechasL{
 		left: 17%;
 		top:5.8rem;
 	}
@@ -644,7 +658,7 @@ a.btn-consultar:hover, a.btn-consultar:active, a.btn-consultar:focus{
 		left: 37%;
 		top:5.8rem;
 		
-	}
+	}*/
 
 	.ui-datepicker-calendar td{
 		line-height: 20px;
@@ -656,21 +670,19 @@ a.btn-consultar:hover, a.btn-consultar:active, a.btn-consultar:focus{
 	}
 }
 
+@media (max-width:450px){
+	.fechasL,
+	.fechasS{
+		top:11rem;
+		
+	}
+}
 
 @media (max-width:400px){
 
 	.ui-datepicker-calendar td{
 		padding:0 5px;
 	}
-
-	.fechasL{
-		left: 15%;
-	}
-	.fechasS{
-		left: 31%;
-		
-	}
-
 }
 
 @media (max-width:350px){
@@ -680,10 +692,10 @@ a.btn-consultar:hover, a.btn-consultar:active, a.btn-consultar:focus{
 	}
 
 	.fechasL{
-		left: 14%;
+		left: 16%;
 	}
 	.fechasS{
-		left: 26%;
+		right: 16%;
 		
 	}
 
