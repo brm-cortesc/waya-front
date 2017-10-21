@@ -575,7 +575,7 @@ a.btn-consultar:hover, a.btn-consultar:active, a.btn-consultar:focus{
 
 	.calendario-llegada,
 	.calendario-salida{
-		position: relative;
+		/*position: relative;*/
 		text-align: center;
 		width: 45%;
 	}
@@ -646,7 +646,7 @@ a.btn-consultar:hover, a.btn-consultar:active, a.btn-consultar:focus{
 	}
 	.fechasL{
 		
-		right:18%;
+		left:18%;
 	}
 }
 @media (max-width:540px){
