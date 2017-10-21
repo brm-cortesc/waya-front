@@ -535,7 +535,7 @@ a.btn-consultar:hover, a.btn-consultar:active, a.btn-consultar:focus{
 
 @media (max-width:768px){
 	#ui-datepicker-div{
-		box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25)
+		box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
 		left:0 !important;
 		width:100% !important;
 	}
@@ -543,7 +543,7 @@ a.btn-consultar:hover, a.btn-consultar:active, a.btn-consultar:focus{
 		bottom:0;
 		height: 100%;
 		left: 0%;
-		max-height: 5rem;
+		max-height: 4rem;
 		overflow: hidden;
 		position: fixed;
 		top:initial;
@@ -589,11 +589,11 @@ a.btn-consultar:hover, a.btn-consultar:active, a.btn-consultar:focus{
 	}
 		
 
-	.fechasS{
+	.fechasL{
 		left: 19%;
 		top: 5.8rem;
 	}
-	.fechasL{
+	.fechasS{
 		left: 39%;
 		top: 5.8rem;
 		
@@ -636,10 +636,10 @@ a.btn-consultar:hover, a.btn-consultar:active, a.btn-consultar:focus{
 }
 
 @media (max-width:540px){
-	.fechasS{
+	.fechasL{
 		left: 17%;
 	}
-	.fechasL{
+	.fechasS{
 		left: 37%;
 		
 	}
@@ -661,12 +661,28 @@ a.btn-consultar:hover, a.btn-consultar:active, a.btn-consultar:focus{
 		padding:0 5px;
 	}
 
+	.fechasL{
+		left: 15%;
+	}
+	.fechasS{
+		left: 31%;
+		
+	}
+
 }
 
 @media (max-width:350px){
 
 	.ui-datepicker-calendar td{
 		padding:0 3px;
+	}
+
+	.fechasL{
+		left: 14%;
+	}
+	.fechasS{
+		left: 26%;
+		
 	}
 
 }
