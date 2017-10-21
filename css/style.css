@@ -560,6 +560,7 @@ a.btn-consultar:hover, a.btn-consultar:active, a.btn-consultar:focus{
 		opacity: 0.99;
 	}
 	.cont-Mreservar{
+		height: 100%;
 		width: 100%;
 	}
 	.cont-fechas,
