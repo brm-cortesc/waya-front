@@ -1,6 +1,14 @@
 @media (min-width: 1600px)
-	.slider .carousel-internas
-		top: 60%
+	.slider
+		.carousel-internas
+			top: 60%
+
+
+@media (min-width: $xlg)
+	.slider
+		.carousel-internas
+			top: 50rem
+
 @media (max-width: $xlg)
 	.menu-principal
 		ul
@@ -8,17 +16,37 @@
 				font-size: $textoxs
 
 	section.section-header-internas
-		padding-top: 17rem
+		padding-top: 15rem
+	
+	.slider
+		.carousel-internas
+			top: 50rem
 
 @media (max-width: 1280px)
 	.slider
 		.carruinterna .fill,
 		.carousel-inner .fill
 			height: 100%
-
+		
+		
 		.carruhome
 			.fill
 				height: 100vh
+
+
+@media (max-width: 1060px)
+	.reservas
+		.caja-reserva-internas
+			width: 83%
+
+			h2
+				font-size: 1.4rem
+				width: 13%
+
+	.slider
+		.carousel-internas
+			top: 27rem
+
 
 
 @media (max-width: 960px)
@@ -38,7 +66,12 @@
 				&::after
 					content: none
 
+	.slider
+		.carousel-internas
+			top: 25%
+
 @media (max-width: $sm)
+
 	section.section-home-dos
 		h2
 			font-size: 3rem
@@ -69,6 +102,11 @@
 		padding-top: 0
 	
 	
+
+	section.section-opiniones-internas
+		.images-cien img
+			margin-top: 1rem
+
 
 	.row-form-opinion,
 	.row-opiniones
@@ -122,6 +160,19 @@
 				max-width: 100%
 
 
+	section.section-header-internas
+		h1, h3
+			margin: 0 auto
+			font-size: 3rem
+	
+	.slider .texto-general-slide
+		p
+			font-size: 1.6rem
+
+			span
+				font-size: 1.8rem
+
+
 @media (max-width: 540px)
 
 	header.container-fluid
@@ -160,3 +211,9 @@
 				width: 120px
 
 
+@media (max-width: 400px)
+	.fechasS
+		left: 14%
+
+	.fechasL
+		left: 27%
