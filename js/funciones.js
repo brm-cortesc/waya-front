@@ -63,7 +63,7 @@ jQuery(document).ready(function($) {
 
   //Scroll fixed header
   if (isMobile.any() || $(window).width() < 768 ){
-    $('header.container-fluid').affix({
+    $('header.container-fluid').first().affix({
       offset: {
         top: 50,
         
