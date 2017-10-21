@@ -591,11 +591,11 @@ a.btn-consultar:hover, a.btn-consultar:active, a.btn-consultar:focus{
 
 	.fechasL{
 		left: 19%;
-		top: 5.8rem;
+		top: 4.8rem;
 	}
 	.fechasS{
 		left: 39%;
-		top: 5.8rem;
+		top: 4.8rem;
 		
 	}
 	.text-Hotel{
@@ -638,9 +638,11 @@ a.btn-consultar:hover, a.btn-consultar:active, a.btn-consultar:focus{
 @media (max-width:540px){
 	.fechasL{
 		left: 17%;
+		top:5.8rem;
 	}
 	.fechasS{
 		left: 37%;
+		top:5.8rem;
 		
 	}
 
