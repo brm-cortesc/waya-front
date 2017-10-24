@@ -329,6 +329,12 @@ header.container-fluid
 			vertical-align: middle
 			width: 100%
 
+			&.active
+				a
+					background-color: $rojo
+					color: white
+
+
 			&::after
 				background: url("../images/general/punto_separador.jpg") no-repeat
 				content: ' '
@@ -343,6 +349,11 @@ header.container-fluid
 
 			a 
 				padding: 7px 0
+
+				&:focus,
+				&:visited
+					ackground-color: $rojo
+					color: white
 
 
 			&:nth-of-type(5)
