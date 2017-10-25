@@ -12,7 +12,8 @@
 
 
 #ui-datepicker-div{
-	width: auto !important; 
+	width: auto !important;
+	z-index: 999999 !important;
 }
 .motor_reserva{
 	display: none !important;
