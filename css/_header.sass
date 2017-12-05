@@ -63,14 +63,27 @@ header.container-fluid
 			border: 0
 			background-color: $amarillo
 		.selectores
-			width: 10%
-			float: $izq
 			color: $amarillo
+			float: $izq
+			margin: 5px
 			padding: 0
 			text-align: $centro
-			margin: 5px
+			width: 8%
 			.input-parte-1
 				width: 100%
+
+			input::-webkit-input-placeholder
+				color: $rojo
+			input::-moz-placeholder
+				color: $rojo
+			input:-ms-input-placeholder
+				color: $rojo
+			select::-webkit-input-placeholder
+				color: $rojo
+			select::-moz-placeholder
+				color: $rojo
+			select:-ms-input-placeholder
+				color: $rojo
 		input::-webkit-input-placeholder
 			color: $rojo
 		input::-moz-placeholder
